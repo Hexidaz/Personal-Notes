@@ -248,13 +248,13 @@ Other algorithm such as **DSA** is obsolte, and **EdDSA** is not yet widely supp
     ```bash
     openssl genpkey -out fd.key \
                     -algorithm EC  \
-                    -pkeyopt ec_paramgen_curve:P-348 \
+                    -pkeyopt ec_paramgen_curve:P-384 \
                     -aes-256-cbc
     ```
 
     > **Notes**
     >
-    > `P-348` can be changed to anything listed on `openssl ecparam -list_curves`
+    > `P-384` can be changed to anything listed on `openssl ecparam -list_curves`
 
 2. **Check Key Content**
 
