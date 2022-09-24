@@ -1,0 +1,19 @@
+---
+version: "2.4"
+services:
+    nginx:
+        image: nginx:latest
+        restart: unless-stopped
+        environment:
+            - HELLO=world
+        networks:
+            ubuntu-network:
+        ports:
+            - 8080:80/tcp
+        volumes:
+            - ./app_config:/config
+
+networks:
+    ubuntu-network:
+        name: ubuntu-network
+        external: false
