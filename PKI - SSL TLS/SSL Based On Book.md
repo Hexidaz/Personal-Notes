@@ -7,19 +7,19 @@ This guide based on [OpenSSL Cookbook 3rd Edition by Ivan Ristić](https://www.f
 ## Table Of Content
 
 - [SSL / TLS Personal Notes](#ssl--tls-personal-notes)
-  - [Table Of Content](#table-of-content)
-  - [Versions](#versions)
-  - [Certificate File Extension](#certificate-file-extension)
-  - [Certificate File Extension: TLDR](#certificate-file-extension-tldr)
-  - [Certificate Conversion](#certificate-conversion)
-  - [Algorithms](#algorithms)
-  - [OpenSSL CLI](#openssl-cli)
-    - [RSA](#rsa)
-    - [ECDSA](#ecdsa)
-  - [Lists](#lists)
-  - [Private CA](#private-ca)
-    - [Create Root CA](#create-root-ca)
-    - [Create Sub CA](#create-sub-ca)
+    - [Table Of Content](#table-of-content)
+    - [Versions](#versions)
+    - [Certificate File Extension](#certificate-file-extension)
+    - [Certificate File Extension: TLDR](#certificate-file-extension-tldr)
+    - [Certificate Conversion](#certificate-conversion)
+    - [Algorithms](#algorithms)
+    - [OpenSSL CLI](#openssl-cli)
+        - [RSA](#rsa)
+        - [ECDSA](#ecdsa)
+    - [Lists](#lists)
+    - [Private CA](#private-ca)
+        - [Create Root CA](#create-root-ca)
+        - [Create Sub CA](#create-sub-ca)
 
 ## Versions
 
@@ -276,9 +276,7 @@ Other algorithm such as **DSA** is obsolte, and **EdDSA** is not yet widely supp
 
     - **Generate CSR from Certificate [Optional]**
 
-        > **Notes**
-        >
-        > Usually used for renewing certificate.
+        Usually used to renew certificate.
 
         ```bash
         openssl x509 -x509toreq -in fd.crt -out fd.csr -signkey fd.key
@@ -667,7 +665,7 @@ Other algorithm such as **DSA** is obsolte, and **EdDSA** is not yet widely supp
                    -crl_reason keyCompromise
         ```
 
-        > Notes
+        > **Notes**
         >
         > Value of `-crl_reason` can be one of the following: `unspecified`, `keyCompromise`, `CACompromise`, `affiliationChanged`, `superseded`, `cessationOfOperation`, `certificateHold`, or `removeFromCRL`.
 
@@ -891,7 +889,7 @@ Other algorithm such as **DSA** is obsolte, and **EdDSA** is not yet widely supp
                    -crl_reason keyCompromise
         ```
 
-        > Notes
+        > **Notes**
         >
         > Value of `-crl_reason` can be one of the following: `unspecified`, `keyCompromise`, `CACompromise`, `affiliationChanged`, `superseded`, `cessationOfOperation`, `certificateHold`, or `removeFromCRL`.
 

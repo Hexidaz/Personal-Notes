@@ -3,11 +3,11 @@
 ## Table of Content
 
 - [Dummy Guide to SSL using OpenSSL](#dummy-guide-to-ssl-using-openssl)
-  - [Table of Content](#table-of-content)
-  - [Steps to get SSL Certificate](#steps-to-get-ssl-certificate)
-  - [Setting Up Root CA](#setting-up-root-ca)
-  - [Setting Up Sub CA](#setting-up-sub-ca)
-  - [Getting Server Certificate](#getting-server-certificate)
+    - [Table of Content](#table-of-content)
+    - [Steps to get SSL Certificate](#steps-to-get-ssl-certificate)
+    - [Setting Up Root CA](#setting-up-root-ca)
+    - [Setting Up Sub CA](#setting-up-sub-ca)
+    - [Getting Server Certificate](#getting-server-certificate)
 
 ## Steps to get SSL Certificate
 
