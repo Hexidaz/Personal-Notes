@@ -14,6 +14,8 @@
 |[VSCode](https://code.visualstudio.com/)|Hackable Text / Code Editor|
 |[VSCodium](https://vscodium.com/)|VSCode but with telemetry removed|
 |[WSL2](./WSL2.md)|Allows you to run full Linux on Windows|
+|[Scoop](https://scoop.sh/)|Unofficial Package Manager for Windows, but it installs aplication in user space|
+|[Chocolatey](https://chocolatey.org/)|Unofficial Package Manager for Windows|
 
 ## TWEAKS
 
