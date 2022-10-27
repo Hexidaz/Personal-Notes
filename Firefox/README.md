@@ -26,11 +26,16 @@
 1. Open `about:config`
 2. Set `browser.theme.retainedExpiredThemes` to String and its value to:
 
-   ```text
+    ```text
     ["elemental-soft-colorway@mozilla.org", "elemental-balanced-colorway@mozilla.org", "elemental-bold-colorway@mozilla.org","graffiti-soft-colorway@mozilla.org", "graffiti-balanced-colorway@mozilla.org", "graffiti-bold-colorway@mozilla.org","lush-soft-colorway@mozilla.org", "lush-balanced-colorway@mozilla.org", "lush-bold-colorway@mozilla.org","foto-soft-colorway@mozilla.org", "foto-balanced-colorway@mozilla.org", "foto-bold-colorway@mozilla.org","cheers-soft-colorway@mozilla.org", "cheers-balanced-colorway@mozilla.org", "cheers-bold-colorway@mozilla.org","abstract-soft-colorway@mozilla.org", "abstract-balanced-colorway@mozilla.org", "abstract-bold-colorway@mozilla.org"]
     ```
 
 3. Save
+
+> Source
+>
+> [reddit](https://www.reddit.com/r/firefox/comments/uq26ao/bringing_back_your_preferred_colorways/) - the source for this guide  
+> [github](https://github.com/FirefoxUX/create-theme-script/tree/master/themes/independent-voices) - seems to be the source of all themes made by Mozilla  
 
 ### Lazy Load Pinned Tabs [load only when viewed]
 
