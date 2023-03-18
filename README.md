@@ -1,3 +1,3 @@
 # Personal Notes
 
-This repo contains my notes or cheatsheet and is also used to learn using `Markdown`. This exists mainly for me to go through things that I forgot and/or need refreshment on. This repo shall be open for everyone to use, hoping that this could be useful for anyone. Your input is much appreciated.
+Just a repo with guide / notes in case I need to refer to certain topic that I have learned in the past. This repo contains mostly about softwares but are not limited to software. Feel free to have a look, I would be very glad if this can help you.
