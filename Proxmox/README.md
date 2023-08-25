@@ -67,7 +67,7 @@ Usually I follow my own rules for providing the VM / CT ID
 
 ## CLI
 
-### Upgrading Proxmox
+### Upgrade Proxmox
 
 To upgrade `Proxmox`, you must use the command `apt dist-upgrade` in the shell.
 
